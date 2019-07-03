@@ -153,7 +153,7 @@ def encode(sentence, word_dict=word_bank):
     binary_sentence = [0 for _ in range(len(word_dict))]
     words = process(sentence)
     for category in word_dict:
-        for word in [ps.stem(x.lower()) for x in word_dict[category]]:
+        for word in [ps.stem(wrd.lower()) for wrd in word_dict[category]]:
             if process(word) in words and word not in ['']:
                 binary_sentence[categories.index(category)] += 1
     return binary_sentence
