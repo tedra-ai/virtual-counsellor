@@ -1,6 +1,6 @@
 from dictionary import *
 
-# @Bright, create a Neural Network model and paste the code within this space.
+# @Bright, create and train a Neural Network model and paste the code within this space.
 # i would advise to avoid recurrent neural networks. Due to poor training data, RNNs may be to our disadvantage
 # name the main model name : _model
 
