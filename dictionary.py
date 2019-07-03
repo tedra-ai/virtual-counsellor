@@ -147,7 +147,8 @@ responses = [['Greetings', 'Hey', 'Hello', 'Hi'], ['check out : ', 'look up : ']
 
 process = lambda w: ' '.join([ps.stem(x.lower()) for x in word_tokenize(w)])
 
-def encode(sentence, word_dict):
+# Encode the 
+def encode(sentence, word_dict=word_bank):
     categories = [_ for _ in word_dict]
     binary_sentence = [0 for _ in range(len(word_dict))]
     words = process(sentence)
