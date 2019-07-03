@@ -66,7 +66,9 @@ class Chatbot:
         self.gist += sentence + '. '
 	# encode sentence and predict encoded sentence
         binary_sentence = encode(sentence, self.word_bank)
-        prediction =round(_model.predict(binary_sentence)[0] * gradient_bias)
+        prediction = round(_model.predict(binary_sentence)[0] * gradient_bias)
+	# evaluate exit code
+	self.exit_code = 1 if prediction == 5 else 0	
 	
         # if prediction is an enquiry for institution of study
         if prediction == 1:
