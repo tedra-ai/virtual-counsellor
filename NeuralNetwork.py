@@ -23,21 +23,24 @@ _labels = [3, 0, 5, 1, 2, 4]
 
 
 # The following training_data may be fine with the average neural network:
-
- _training_data = ['i am interested in programming what would you recommend i choose',
-                  'i have an interest in electronics',
-                   'where could i study computer science',
-                   'what country',
-                   'hey',
-                   'goodbye',
-                   'i want to become a software engineer, where do i go',
-                   'i have an issue comprehending biology',
-                   'what is the best university in the world',
-                   'i dont like math but i love to draw what tould you recommend i choose',
-                   'thank you',
-                   'hi',
-                   'hi, i want to become a software engineer, where do i go']
- _labels = [3, 3, 1, 2, 0, 5, 1, 4, 1, 3, 5, 0, 1]
+_training_data = ['i am interested in programming what would you recommend i choose',
+                  'i have an interest in electronics, what do i study',
+                  'What country is the best to study computer science',
+                  'where could i study computer science',
+                  'what country',
+                  'hey',
+                  'goodbye',
+                  'i want to become a software engineer, where do i go',
+                  'i have an issue comprehending biology',
+                  'what is the best university in the world',
+                  'i dont like math but i love to draw what tould you recommend i choose',
+                  'thank you',
+                  'hi',
+                  'hi, i want to become a software engineer, where do i go',
+                  'i have an interest in programming',
+                  'hey',
+                  'I dont like math']
+_labels = [3, 3, 2, 1, 2, 0, 5, 1, 4, 1, 3, 5, 0, 1, 3, 0, 4]
 
 
 
